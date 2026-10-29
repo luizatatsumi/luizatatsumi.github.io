@@ -51,3 +51,7 @@
 .brand-link:hover,.brand-link:focus-visible{background:#e5edf0;border-color:var(--navy);transform:translateY(-2px)}
 .brand-info{display:flex;flex-direction:column;gap:7px}.brand-info strong{font-size:17px;font-weight:700}.brand-info small{font-size:12px;color:#607783}.brand-arrow{font-size:25px;line-height:1}
 @media(max-width:600px){.gallery-grid.brand-gallery{grid-template-columns:1fr}.brand-link{min-height:86px;padding:18px}}
+
+/* Portfólio simplificado: marcas diretamente acessíveis */
+.brand-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.brand-grid .brand-link{background:#f2f5f4;min-height:150px;padding:30px}.brand-grid .brand-info strong{font-size:21px}.brand-grid .brand-info small{font-size:13px}.work .section-heading p{max-width:440px}
+@media(max-width:680px){.brand-grid{grid-template-columns:1fr;gap:12px}.brand-grid .brand-link{min-height:104px;padding:21px}.brand-grid .brand-info strong{font-size:18px}.work .section-heading{align-items:flex-start;flex-direction:column;gap:16px}.work .section-heading p{max-width:100%}}
