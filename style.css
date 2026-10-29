@@ -88,3 +88,6 @@
 
 /* Separação visual da seção de serviços em relação à seção anterior */
 .services{background:#ffffff;border-top:1px solid #e2e6e8;border-bottom:1px solid #e2e6e8}
+
+/* Contraste inequívoco entre Como penso (bege) e Serviços (azul-acinzentado discreto) */
+section.services{background-color:#e8eff3!important;border-top:1px solid #c6d6df;border-bottom:1px solid #c6d6df}
