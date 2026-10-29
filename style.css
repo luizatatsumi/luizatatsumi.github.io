@@ -94,3 +94,8 @@ section.services{background-color:#e8eff3!important;border-top:1px solid #c6d6df
 
 /* Manter somente dois aros: ocultar o maior, inclusive no mobile */
 .skill-universe .skill-orbit-c{display:none!important}
+
+/* CTAs padronizados: texto minúsculo centralizado, sem setas */
+.header-cta,.hero-actions .button.light,.services-cta,.contact-primary{display:flex!important;align-items:center!important;justify-content:center!important;text-align:center!important;text-transform:none!important;gap:0!important}
+.header-cta .cta-label{display:block!important;width:100%!important;text-align:center!important;position:static!important;transform:none!important;margin:0!important;padding:0!important}
+.hero-actions .button.light span,.services-cta span,.contact-primary span,.header-cta .cta-arrow{display:none!important}
