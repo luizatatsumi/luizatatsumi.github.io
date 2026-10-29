@@ -72,3 +72,6 @@
 .skill-universe .skill-orbit-c{width:620px;height:555px;transform:translate(-50%,-50%) rotate(-12deg);border-color:rgba(196,219,234,.15)!important}
 @media(max-width:900px){.skill-universe .skill-orbit-a{width:310px;height:290px}.skill-universe .skill-orbit-b{width:410px;height:380px}.skill-universe .skill-orbit-c{width:510px;height:470px}}
 @media(max-width:680px){.skill-universe .skill-orbit-a{width:255px;height:255px}.skill-universe .skill-orbit-b{width:345px;height:320px}.skill-universe .skill-orbit-c{width:420px;height:405px}}
+
+/* Correção definitiva: o rótulo não herda margem do botão */
+.header-cta .cta-label{margin-left:0!important;margin-right:0!important;display:block;text-align:center;flex:0 0 auto}
