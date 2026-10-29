@@ -91,3 +91,6 @@
 
 /* Contraste inequívoco entre Como penso (bege) e Serviços (azul-acinzentado discreto) */
 section.services{background-color:#e8eff3!important;border-top:1px solid #c6d6df;border-bottom:1px solid #c6d6df}
+
+/* Manter somente dois aros: ocultar o maior, inclusive no mobile */
+.skill-universe .skill-orbit-c{display:none!important}
